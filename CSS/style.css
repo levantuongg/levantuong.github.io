@@ -77,24 +77,6 @@ header {
   background-size: cover;
   animation: slide infinite 15s;
 }
-@keyframes slide {
-  0%,
-  100% {
-    background-image: url(../img/main-bgr.png);
-  }
-  20% {
-    background-image: url(../img/bgr-giay.png);
-  }
-  40% {
-    background-image: url(../img/bgr-vot.png);
-  }
-  60% {
-    background-image: url(../img/tui.png);
-  }
-  80% {
-    background-image: url(../img/balo.png);
-  }
-}
 .info,
 .icon,
 .promo-item {
@@ -172,25 +154,6 @@ justify-content: space-around;
 .item5:hover,
 .item6:hover {
   opacity: 0.9;
-}
-
-.item1 {
-  background-image: url(../img/vot.png);
-}
-.item2 {
-  background-image: url(../img/giay.png);
-}
-.item3 {
-  background-image: url(../img/ao.png);
-}
-.item4 {
-  background-image: url(../img/balo.png);
-}
-.item5 {
-  background-image: url(../img/tui.png);
-}
-.item6 {
-  background-image: url(../img/phukien.png);
 }
 .item1,
 .item2,
@@ -292,10 +255,10 @@ footer {
 
 #left-nav {
   width: 220px;
-  background-color: #f7f8f9;
+  background-color: #efefef;
   display: inline-block;
   margin-top: -70px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.995);
   height: 100%;
   padding-bottom: 30px;
   border-radius: 10px;
@@ -325,7 +288,7 @@ footer {
   border-radius: 6px;
 }
 .item .price {
-  color: #e8002d;
+  color: hsl(39, 100%, 45%);
   display: inline-block;
 }
 .item > p {
@@ -360,7 +323,7 @@ footer {
   width: 60%;
   height: 30px;
   margin-left: 26%;
-  background-color: #f7f8f9;
+  background-color: hsl(0, 0%, 100%);
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -380,7 +343,7 @@ footer {
   background-color: rgb(14, 133, 237);
   border-radius: 26%;
   margin-left: 6px;
-  color: white;
+  color: rgb(28, 13, 13);
 }
 .list-page:hover li {
   cursor: pointer;
